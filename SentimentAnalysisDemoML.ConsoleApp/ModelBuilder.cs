@@ -6,7 +6,7 @@ using System.IO;
 using System.Linq;
 using Microsoft.ML;
 using Microsoft.ML.Data;
-using CustomerFeedbackUsingMLDemoML.Model;
+using SentimentAnalysisDemoML.Model;
 
 namespace CustomerFeedbackUsingMLDemoML.ConsoleApp
 {

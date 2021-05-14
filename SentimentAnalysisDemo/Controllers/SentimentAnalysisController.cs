@@ -30,7 +30,8 @@ namespace SentimentAnalysisDemo.Controllers
                 {
 
                     Prediction = predictionResult.Prediction,
-                    Score = predictionResult.Score
+                    Score = predictionResult.Score,
+                    Message = predictionResult.Prediction == "0"?"We are sorry for inconvience":"That's Great! Thank you for feedback"
                 });
             }
             catch (Exception ex)
